@@ -21,7 +21,7 @@ jobs:
       - uses: SonarSource/sonarqube-scan-action@v1.2.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: http://172.16.42.71 172.17.0.1:9000
+          SONAR_HOST_URL: http://sonarcloud.io
 
       - uses: SonarSource/sonarqube-quality-gate-action@v1.1.0
         env:
