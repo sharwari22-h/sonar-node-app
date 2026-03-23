@@ -25,4 +25,4 @@ jobs:
 
       - uses: SonarSource/sonarqube-quality-gate-action@v1.1.0
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.squ_81fa9c5b624ca3556449214d97c051315e035390 }}
