@@ -21,8 +21,8 @@ jobs:
       - uses: SonarSource/sonarqube-scan-action@v1.2.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: http://sonarcloud.io
+          SONAR_HOST_URL: https://remediable-carson-instructorial.ngrok-free.dev 
 
       - uses: SonarSource/sonarqube-quality-gate-action@v1.1.0
         env:
-          SONAR_TOKEN: ${{ secrets.squ_81fa9c5b624ca3556449214d97c051315e035390 }}
+           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
